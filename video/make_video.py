@@ -128,13 +128,13 @@ def main():
     for old in os.listdir(FRAMES):
         os.remove(os.path.join(FRAMES, old))
     frames = []
-    title_secs, close_secs = 5, 8
+    title_secs, close_secs = 6, 10
     frames += [title_card()] * (title_secs * FPS)
     lines = load_transcript_lines()
-    # reveal ~1 line per frame
+    # reveal 1 line per ~1.5s so the demo is readable end-to-end
     term_frames = []
     for upto in range(1, len(lines) + 1):
-        term_frames.append(terminal_frame(lines, upto))
+        term_frames += [terminal_frame(lines, upto)] * 3
     # hold the final screen a bit
     term_frames += [term_frames[-1]] * (4 * FPS)
     frames += term_frames
