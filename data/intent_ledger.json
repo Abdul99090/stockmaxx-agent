@@ -1,0 +1,32 @@
+[
+  {
+    "side": "BUY",
+    "ticker": "TSLA",
+    "usd_amount": 1800.0,
+    "price": 409.0539,
+    "shares": 4.400398,
+    "reason": "signal 0.843: momentum +1.90% over 3 ticks, consistency 1.00",
+    "block": 58332260,
+    "status": "RECORDED"
+  },
+  {
+    "side": "BUY",
+    "ticker": "COIN",
+    "usd_amount": 1800.0,
+    "price": 321.0678,
+    "shares": 5.606293,
+    "reason": "signal 0.804: momentum +1.69% over 3 ticks, consistency 1.00",
+    "block": 58332260,
+    "status": "RECORDED"
+  },
+  {
+    "side": "BUY",
+    "ticker": "MSFT",
+    "usd_amount": 1600.0,
+    "price": 498.4784,
+    "shares": 3.209768,
+    "reason": "signal 0.639: momentum +0.77% over 3 ticks, consistency 1.00",
+    "block": 58332260,
+    "status": "RECORDED"
+  }
+]

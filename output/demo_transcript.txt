@@ -1,0 +1,88 @@
+==========================================================================
+StockMaxx Agent - Agentic Stock Finance on Base (TESTNET DEMO)
+Universe source: reference-demo | names: AAPL, COIN, MSFT, NVDA, TSLA
+Base Sepolia live block: 58332223 (via https://sepolia.base.org)
+Paper portfolio: $10,000.00 | risk caps: 20%/position, 60% total, SL -8%, TP 15%
+==========================================================================
+
+-- tick 1 | Base Sepolia block 58332231 --
+  NVDA  score 0.000  warming up (need >=3 observations)
+  AAPL  score 0.000  warming up (need >=3 observations)
+  TSLA  score 0.000  warming up (need >=3 observations)
+  MSFT  score 0.000  warming up (need >=3 observations)
+  COIN  score 0.000  warming up (need >=3 observations)
+
+-- tick 2 | Base Sepolia block 58332244 --
+  NVDA  score 0.000  warming up (need >=3 observations)
+  AAPL  score 0.000  warming up (need >=3 observations)
+  TSLA  score 0.000  warming up (need >=3 observations)
+  MSFT  score 0.000  warming up (need >=3 observations)
+  COIN  score 0.000  warming up (need >=3 observations)
+
+-- tick 3 | Base Sepolia block 58332260 --
+  TSLA  score 0.843  momentum +1.90% over 3 ticks, consistency 1.00  -> BUY $1,800.00 (4.4004 share-equiv)
+  COIN  score 0.804  momentum +1.69% over 3 ticks, consistency 1.00  -> BUY $1,800.00 (5.6063 share-equiv)
+  MSFT  score 0.639  momentum +0.77% over 3 ticks, consistency 1.00  -> BUY $1,600.00 (3.2098 share-equiv)
+  AAPL  score 0.553  momentum +0.30% over 3 ticks, consistency 1.00  -> blocked by risk guard: total exposure cap 60% would be breached
+  NVDA  score 0.403  momentum +0.02% over 3 ticks, consistency 0.50
+
+-- tick 4 | Base Sepolia block 58332265 --
+  COIN  score 1.000  momentum +3.22% over 4 ticks, consistency 1.00
+  TSLA  score 0.699  momentum +1.71% over 4 ticks, consistency 0.67
+  NVDA  score 0.569  momentum +0.87% over 4 ticks, consistency 0.67  -> blocked by risk guard: total exposure cap 60% would be breached
+  MSFT  score 0.546  momentum +0.72% over 4 ticks, consistency 0.67
+  AAPL  score 0.456  momentum +0.15% over 4 ticks, consistency 0.67
+
+-- tick 5 | Base Sepolia block 58332276 --
+  COIN  score 0.900  momentum +2.91% over 5 ticks, consistency 0.75
+  MSFT  score 0.656  momentum +1.27% over 5 ticks, consistency 0.75
+  NVDA  score 0.646  momentum +1.21% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  AAPL  score 0.551  momentum +0.62% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  TSLA  score 0.480  momentum +0.55% over 5 ticks, consistency 0.50
+
+-- tick 6 | Base Sepolia block 58332287 --
+  COIN  score 0.758  momentum +1.90% over 5 ticks, consistency 0.75
+  AAPL  score 0.578  momentum +0.79% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  NVDA  score 0.531  momentum +0.91% over 5 ticks, consistency 0.50
+  MSFT  score 0.443  momentum +0.30% over 5 ticks, consistency 0.50
+  TSLA  score 0.429  momentum +0.20% over 5 ticks, consistency 0.50
+
+-- tick 7 | Base Sepolia block 58332329 --
+  COIN  score 0.795  momentum +2.13% over 5 ticks, consistency 0.75
+  NVDA  score 0.709  momentum +1.60% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  AAPL  score 0.678  momentum +1.41% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  MSFT  score 0.418  momentum +0.13% over 5 ticks, consistency 0.50
+  TSLA  score 0.147  momentum -1.61% over 5 ticks, consistency 0.25
+
+-- tick 8 | Base Sepolia block 58332358 --
+  COIN  score 0.900  momentum +2.94% over 5 ticks, consistency 0.75
+  NVDA  score 0.825  momentum +2.32% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  AAPL  score 0.662  momentum +1.31% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  MSFT  score 0.486  momentum +0.22% over 5 ticks, consistency 0.75
+  TSLA  score 0.366  momentum -0.23% over 5 ticks, consistency 0.50
+
+-- tick 9 | Base Sepolia block 58332375 --
+  NVDA  score 0.900  momentum +3.03% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  COIN  score 0.900  momentum +3.18% over 5 ticks, consistency 0.75
+  TSLA  score 0.703  momentum +1.56% over 5 ticks, consistency 0.75
+  MSFT  score 0.452  momentum +0.01% over 5 ticks, consistency 0.75
+  AAPL  score 0.396  momentum -0.03% over 5 ticks, consistency 0.50
+
+-- tick 10 | Base Sepolia block 58332402 --
+  COIN  score 0.900  momentum +3.32% over 5 ticks, consistency 0.75
+  NVDA  score 0.889  momentum +2.71% over 5 ticks, consistency 0.75  -> blocked by risk guard: total exposure cap 60% would be breached
+  MSFT  score 0.609  momentum +0.60% over 5 ticks, consistency 1.00
+  TSLA  score 0.518  momentum +0.82% over 5 ticks, consistency 0.50
+  AAPL  score 0.307  momentum -0.34% over 5 ticks, consistency 0.25
+
+==========================================================================
+PORTFOLIO SUMMARY (paper, testnet)
+  cash:        $  4,800.00
+  COIN      5.6063 share-equiv @ avg   321.07 (now   336.90)
+  MSFT      3.2098 share-equiv @ avg   498.48 (now   501.42)
+  TSLA      4.4004 share-equiv @ avg   409.05 (now   409.78)
+  total value: $ 10,101.40  (start $10,000.00, +1.01%)
+  exposure:    52.5% | intents recorded: 3
+  ledger:      /home/hatch/workspace/hackathons/base-stocks/data/intent_ledger.json
+  NOTE: demo only - no real orders, no real funds, no financial advice.
+==========================================================================

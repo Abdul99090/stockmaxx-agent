@@ -1,0 +1,17 @@
+DRAF POST X — Base "Stocks Maxxing" Builder Quest (SATU post, izin khusus @KenzieRefa)
+STATUS: JANGAN POSTING dari file ini — agen utama yang posting + lampirkan video/demo.mp4.
+Wajib per aturan resmi: post publik + video demo + tag @buildonbase.
+
+=== POST UTAMA (<=280 karakter, video demo.mp4 terlampir) ===
+Built StockMaxx Agent for @buildonbase Stocks Maxxing (Agentic Stock Finance): an AI agent that scans tokenized stocks on Base, scores momentum behind a NAV-staleness guard, and runs a paper portfolio on Base Sepolia inside hard risk caps. Demo 👇
+
+=== VERSI THREAD (bila agen utama memilih thread; post 1 tetap yang dihitung sebagai entry) ===
+1/ Built StockMaxx Agent for @buildonbase Stocks Maxxing (Agentic Stock Finance): an AI agent that scans tokenized stocks on Base, scores momentum behind a NAV-staleness guard, and runs a paper portfolio on Base Sepolia inside hard risk caps. Demo 👇
+2/ How it works: read tokenized-stock data via the Base Tokenized Stocks API (multiplier + Chainlink NAV), score momentum/consistency, then let a hard risk guard veto or approve every order — 20% per position, 60% max exposure, stop-loss & take-profit.
+3/ Every paper trade is written to an intent ledger anchored to the live Base Sepolia block it was decided at. Positions are tracked in share-equivalents (balanceOfUI style). Mainnet execution exists only as a disabled stub — a human decides if it ever turns on.
+4/ Code + full demo transcript: <REPO_URL> — built in the open during Stocks Maxxing season. Testnet by design: the Quest rules say testnet submissions are not judged less favorably. Not financial advice.
+
+=== CATATAN ===
+- <REPO_URL> diganti URL repo GitHub publik setelah push (placeholder sekarang: github.com/Abdul99090/stockmaxx-agent).
+- Hashtag tidak diwajibkan aturan resmi; tag yang WAJIB cuma @buildonbase. Bila mau tambah: #StocksMaxxing #Base (opsional, jangan mengorbankan batas 280 di post utama).
+- Jangan klaim endorsement Base/Coinbase/issuer mana pun (dilarang aturan Bagian 6).
