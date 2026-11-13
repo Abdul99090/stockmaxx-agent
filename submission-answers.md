@@ -26,7 +26,8 @@ StockMaxx Agent
 Agentic Stock Finance  ← (satu-satunya track yang dimasuki; aturan: maks 1 submission per Track)
 
 **Link to X post**
-[ISI SETELAH POSTING — URL post @KenzieRefa berisi video demo + tag @buildonbase]
+https://x.com/KenzieRefa/status/2121286110756413725
+(tweet id 2121286110756413725, live 13 Nov 2026 23:56:35 WIB; video demo terlampir terverifikasi read-back: media type "video", media_id 2121286091604930560; izin satu kali Muhammad 13 Nov 23:41 + override gas 23:52)
 
 **Project / repo link**
 https://github.com/Abdul99090/stockmaxx-agent
@@ -72,7 +73,7 @@ Demo is fully reproducible from the repo with zero dependencies (Python stdlib),
 ---
 
 ## Checklist sebelum submit (agen utama)
-1. [ ] Post X live dari @KenzieRefa: video demo.mp4 terlampir + tag @buildonbase + teks = draft-post.txt post utama.
+1. [x] Post X live dari @KenzieRefa: video demo.mp4 terlampir + tag @buildonbase + teks = draft-post.txt post utama. → https://x.com/KenzieRefa/status/2121286110756413725 (13 Nov 2026 23:56 WIB, terverifikasi read-back + scan timeline: tepat satu post, media video terbaca)
 2. [ ] Repo GitHub publik ter-push (akun Abdul99090) dan URL-nya dimasukkan ke jawaban di atas + ke thread post bila jadi thread.
 3. [ ] Submit form SEBELUM deadline aman: **target ≤ 5 Des 2026 siang WIB** (lihat catatan deadline di laporan — rules vs form beda zona; jangan mepet).
 4. [ ] Identitas entrant konsisten: akun X yang posting = identitas di form.

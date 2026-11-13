@@ -1,0 +1,1 @@
+Built StockMaxx Agent for @buildonbase Stocks Maxxing (Agentic Stock Finance): an AI agent that scans tokenized stocks on Base, scores momentum behind a NAV-staleness guard, and runs a paper portfolio on Base Sepolia inside hard risk caps. Demo 👇
