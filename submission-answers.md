@@ -29,7 +29,7 @@ Agentic Stock Finance  ← (satu-satunya track yang dimasuki; aturan: maks 1 sub
 [ISI SETELAH POSTING — URL post @KenzieRefa berisi video demo + tag @buildonbase]
 
 **Project / repo link**
-[ISI SETELAH PUSH — placeholder: https://github.com/Abdul99090/stockmaxx-agent]
+https://github.com/Abdul99090/stockmaxx-agent
 
 **Demo video link (bila diminta terpisah dari post X)**
 File lokal: video/demo.mp4 (dilampirkan di post X; bila form minta URL, upload file yang sama dan tempel URL-nya)
